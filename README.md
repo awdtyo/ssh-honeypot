@@ -13,7 +13,7 @@ Simulates an SSH server on port 22, captures all login attempts
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ssh-honeypot
+git clone https://github.com/awdtyo/ssh-honeypot
 cd ssh-honeypot
 pip install -r requirements.txt
 ssh-keygen -t rsa -b 2048 -f honeypot_rsa -N ""
